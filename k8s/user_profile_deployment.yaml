@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: user-profile
-        image: user-profile:latest
+        image: 7abouba/user-profile:latest
         imagePullPolicy: Never
         ports:
         - containerPort: 5003
